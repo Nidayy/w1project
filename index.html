@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squid Game Tanıtım</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Squid Game</div>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#intro">Ana Sayfa</a></li>
+        <li><a href="#characters">Karakterler</a></li>
+        <li><a href="#scene">Favori Sahne</a></li>
+        <li><a href="bolumler.html">Bölüm Listesi</a></li>
+        <li><a href="hakkinda.html">Hakkında</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro" class="section">
+     
+      <img src="images/poster4.webp" alt="Squid Game Poster">
+      <h1>SQUID GAME</h1>
+      <p><i>Para sıkıntısı çeken yüzlerce oyuncu, çocuk oyunlarında yarışmaları için aldıkları tuhaf daveti kabul eder. İçeride onları cazip bir ödül ve ölüm riski beklemektedir.</i></p>
+      <p><i>Başroldekiler: Lee Jung-jae, Lee Byung-hun, Yim Si-wan</i></p>
+      <p><i>Yaratıcılar: Hwang Dong-hyuk</i></p>
+    </section>
+
+    <section id="characters" class="section">
+      <h2>Ana Karakterler</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="images/1..jpg" alt="Seong Gi-hun">
+          <h3>Seong Gi-hun</h3>
+          <p>Oyuncu: Lee Jung-jae.Diziye baş karakter olarak giriş yapar. Borç içindedir, yaşlı annesiyle birlikte yaşar. Kızıyla yeniden bağ kurmaya çalışmaktadır.</p>
+        </div>
+        <div class="card">
+          <img src="images/2..jpg" alt="Cho Sang-woo">
+          <h3>Cho Sang-woo</h3>
+          <p>Oyuncu: Park Hae-soo.Gi-hun’un çocukluk arkadaşıdır. Başarılı bir öğrencilik hayatı olmuş ama şirketindeki usulsüzlükler nedeniyle borç batağına düşmüştür.</p>
+        </div>
+        <div class="card">
+          <img src="images/3..jpg" alt="Kang Sae-byeok">
+          <h3>Kang Sae-byeok</h3>
+          <p>Oyuncu: Jung Ho-yeon.Kuzey Kore’den kaçmış bir sığınmacıdır. Kayıp ailesini bir araya getirmek için para kazanmak istemektedir.</p>
+        </div>
+         <div class="card">
+          <img src="images/4..jpg" alt="Abdul Ali">
+          <h3>Abdul Ali</h3>
+          <p>Oyuncu: Anupam Tripathi.Pakistanlı bir göçmendir. Ailesine bakmak için Güney Kore’de çalışmaktadır.</p>
+        </div>
+         <div class="card">
+          <img src="images/5..jpg" alt="Oh Il-nam">
+          <h3>Oh Il-nam</h3>
+          <p>Oyuncu: Oh Yeong-su.Yaşlı ve hasta bir adamdır. İlk başta sıradan bir oyuncu gibi görünür, ancak ilerleyen bölümlerde önemli bir role sahip olduğu ortaya çıkar.</p>
+        </div>
+         <div class="card">
+          <img src="images/6..jpg" alt="Jang Deok-su">
+          <h3>Jang Deok-su</h3>
+          <p>Oyuncu: Heo Sung-tae.Şiddete meyilli, mafyayla bağlantılı bir suçludur.</p>
+        </div>
+         <div class="card">
+          <img src="images/7..jpg" alt="Han Mi-nyeo">
+          <h3>Han Mi-nyeo</h3>
+          <p>Oyuncu: Kim Joo-ryoung.Manipülatif ve dengesiz davranışlar sergileyen bir kadındır. Hayatta kalmak için her yolu dener.</p>
+        </div>
+         <div class="card">
+          <img src="images/8..jpg" alt="Hwang Jun-ho">
+          <h3>Hwang Jun-ho</h3>
+          <p>Oyuncu: Wi Ha-joon.Oyun alanına gizlice sızan bir polistir. Kayıp kardeşini bulmaya çalışır.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="scene" class="section">
+      <h2>Favori Sahnem</h2>
+      <p>"Glass Bridge Game" sahnesi,Squid Game dizisinin 7. bölümünde yer alan en gerilimli ve unutulmaz sahnelerden biridir..</p>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/lwZJHHQ8ib4" frameborder="0" allowfullscreen>
+     </iframe>
+
+  </main>
+
+  <footer>
+    <button id="favBtn">Favorilere Ekle</button>
+  </footer>
+
+  <script>
+    document.getElementById('favBtn').addEventListener('click', function() {
+      this.style.backgroundColor = '#ffcc00';
+      this.textContent = 'Favorilere Eklendi!';
+    });
+  </script>
+</body>
+</html>
